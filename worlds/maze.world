@@ -88,30 +88,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>11963 207000000</sim_time>
-      <real_time>1353 673688508</real_time>
-      <wall_time>1718606966 233671927</wall_time>
-      <iterations>1336646</iterations>
-      <model name='RegionEventBox'>
-        <pose>0.425418 -5.23469 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>0.425418 -5.23469 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='RegionEventBox_0'>
-        <pose>0.444894 -0.446256 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>0.444894 -0.446256 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
+      <sim_time>13443 928000000</sim_time>
+      <real_time>115 103391241</real_time>
+      <wall_time>1718632929 877758342</wall_time>
+      <iterations>114887</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -123,42 +103,42 @@
         </link>
       </model>
       <model name='my_bot'>
-        <pose>0.52048 0.425745 0.032997 1.6e-05 1.8e-05 -1.62429</pose>
+        <pose>0.504141 0.27275 0.032997 -1.7e-05 1.8e-05 -1.55167</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
-          <pose>0.52048 0.425745 0.032997 1.6e-05 1.8e-05 -1.62429</pose>
-          <velocity>0.001309 0.000615 0 -0.001738 -0.032454 -0.005331</velocity>
-          <acceleration>-1.98925 0.10878 0.000109 1.76536 -1.30711 2.69567</acceleration>
-          <wrench>-1.21344 0.066356 6.6e-05 0 -0 0</wrench>
+          <pose>0.504141 0.27275 0.032997 -1.7e-05 1.8e-05 -1.55167</pose>
+          <velocity>-0.001286 0.000659 -1e-06 -0.000617 0.032501 0.005419</velocity>
+          <acceleration>1.99057 0.038235 -0.000768 -0.728811 1.41173 -2.96938</acceleration>
+          <wrench>1.21425 0.023323 -0.000469 0 -0 0</wrench>
         </link>
         <link name='left_wheel'>
-          <pose>0.668765 0.417805 0.033 1.57109 0.523626 1.51745</pose>
-          <velocity>0.00073 -0.000147 0.004888 0.004506 0.020328 -0.005353</velocity>
-          <acceleration>1.91955 -1.71659 9.71393 1.41503 0.513387 0.807058</acceleration>
-          <wrench>0.095977 -0.085829 0.485696 0 -0 0</wrench>
+          <pose>0.652611 0.275591 0.032995 1.57105 0.450596 1.59004</pose>
+          <velocity>-0.000764 0.001456 -0.004889 0.000391 -0.020551 0.00544</velocity>
+          <acceleration>-2.04142 1.55739 -9.71698 -0.225246 -0.616871 -0.816792</acceleration>
+          <wrench>-0.102071 0.077869 -0.485849 0 -0 0</wrench>
         </link>
         <link name='right_wheel'>
-          <pose>0.372195 0.433685 0.032995 1.57103 0.16211 -1.62425</pose>
-          <velocity>0.000829 0.001402 -0.004903 0.00112 0.020858 -0.005306</velocity>
-          <acceleration>2.10565 1.47346 -9.72974 -0.617526 0.97053 0.883936</acceleration>
-          <wrench>0.105283 0.073673 -0.486487 0 -0 0</wrench>
+          <pose>0.355671 0.26991 0.033 1.57106 0.165866 -1.55162</pose>
+          <velocity>-0.000748 -0.000122 0.004904 0.003697 -0.020852 0.005396</velocity>
+          <acceleration>-1.99487 -1.6365 9.7302 1.76875 -0.943025 -0.889971</acceleration>
+          <wrench>-0.099744 -0.081825 0.48651 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120'>
-        <pose>1.42973 -0.612091 0 0 -0 0</pose>
+        <pose>1.42973 -0.617625 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>1.42973 -0.612091 0 0 -0 0</pose>
+          <pose>1.42973 -0.617625 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone'>
-        <pose>-0.518317 -0.580925 0 0 -0 0</pose>
+        <pose>-0.518317 -0.617625 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-0.518317 -0.580925 0 0 -0 0</pose>
+          <pose>-0.518317 -0.617625 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -175,10 +155,10 @@
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_1'>
-        <pose>-1.61677 -0.577942 0 0 -0 0</pose>
+        <pose>-1.61677 -0.617625 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-1.61677 -0.577942 0 0 -0 0</pose>
+          <pose>-1.61677 -0.617625 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -195,70 +175,70 @@
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_11'>
-        <pose>2.37901 -5.32873 0 0 -0 0</pose>
+        <pose>2.41657 -5.51229 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>2.37901 -5.32873 0 0 -0 0</pose>
+          <pose>2.41657 -5.51229 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_12'>
-        <pose>1.36604 -5.35734 0 0 -0 0</pose>
+        <pose>1.36457 -5.51229 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>1.36604 -5.35734 0 0 -0 0</pose>
+          <pose>1.36457 -5.51229 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_13'>
-        <pose>-0.458753 -5.33247 0 0 -0 0</pose>
+        <pose>-0.494346 -5.51229 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-0.458753 -5.33247 0 0 -0 0</pose>
+          <pose>-0.494346 -5.51229 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_14'>
-        <pose>-1.46823 -5.33059 0 0 -0 0</pose>
+        <pose>-1.49991 -5.51229 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-1.46823 -5.33059 0 0 -0 0</pose>
+          <pose>-1.49991 -5.51229 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_15'>
-        <pose>2.42051 -0.622972 0 0 0 -1.58535</pose>
+        <pose>2.38445 -0.622972 0 0 0 -1.58535</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>2.42051 -0.622972 0 0 0 -1.58535</pose>
+          <pose>2.38445 -0.622972 0 0 0 -1.58535</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_15_clone'>
-        <pose>2.42435 -1.83442 0 0 0 -1.58535</pose>
+        <pose>2.38445 -1.83442 0 0 0 -1.58535</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>2.42435 -1.83442 0 0 0 -1.58535</pose>
+          <pose>2.38445 -1.83442 0 0 0 -1.58535</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_15_clone_clone'>
-        <pose>2.39308 -3.02687 0 0 0 -1.58535</pose>
+        <pose>2.38445 -3.02687 0 0 0 -1.58535</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>2.39308 -3.02687 0 0 0 -1.58535</pose>
+          <pose>2.38445 -3.02687 0 0 0 -1.58535</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -275,10 +255,10 @@
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_15_clone_clone_1'>
-        <pose>-2.64686 -0.574068 0 0 0 -1.58535</pose>
+        <pose>-2.66981 -0.574068 0 0 0 -1.58535</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-2.64686 -0.574068 0 0 0 -1.58535</pose>
+          <pose>-2.66981 -0.574068 0 0 0 -1.58535</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -315,20 +295,20 @@
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_15_clone_clone_3'>
-        <pose>-2.70491 -2.99368 0 0 0 -1.58535</pose>
+        <pose>-2.66981 -2.99368 0 0 0 -1.58535</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-2.70491 -2.99368 0 0 0 -1.58535</pose>
+          <pose>-2.66981 -2.99368 0 0 0 -1.58535</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='nist_maze_wall_120_clone_15_clone_clone_4'>
-        <pose>-2.72294 -4.18522 0 0 0 -1.58535</pose>
+        <pose>-2.66981 -4.18522 0 0 0 -1.58535</pose>
         <scale>1 1 1</scale>
         <link name='nist_maze_wall_120_link'>
-          <pose>-2.72294 -4.18522 0 0 0 -1.58535</pose>
+          <pose>-2.66981 -4.18522 0 0 0 -1.58535</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -465,30 +445,50 @@
         </link>
       </model>
       <model name='number1'>
-        <pose>3.38065 -2.31658 0.4 0 -0 0</pose>
+        <pose>3.31576 -0.578144 0.4 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>3.38065 -2.31658 0.4 0 -0 0</pose>
+          <pose>3.31576 -0.578144 0.4 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='number2'>
-        <pose>-2.39793 -2.33265 0.4 0 -0 0</pose>
+        <pose>-2.31054 -2.55698 0.4 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-2.39793 -2.33265 0.4 0 -0 0</pose>
+          <pose>-2.31054 -2.55698 0.4 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='number3'>
-        <pose>3.34418 -4.31052 0.4 0 -0 0</pose>
+        <pose>-1.55924 -5.26548 0.4 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>3.34418 -4.31052 0.4 0 -0 0</pose>
+          <pose>-1.55924 -5.26548 0.4 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='number4'>
+        <pose>3.27146 -4.50418 0.4 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>3.27146 -4.50418 0.4 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='number5'>
+        <pose>0.44352 -6.36321 0.4 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0.44352 -6.36321 0.4 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -500,7 +500,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-0.374236 2.15416 13.5815 0 1.2378 -1.80799</pose>
+        <pose>-4.60989 2.08884 9.66606 0 0.973796 -0.79994</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2191,66 +2191,6 @@
       </link>
       <pose>-1.56723 -0.598832 0 0 0 -1.58535</pose>
     </model>
-    <model name='RegionEventBox'>
-      <static>1</static>
-      <pose>0.424756 -5.44103 0 0 -0 0</pose>
-      <link name='link'>
-        <visual name='visual'>
-          <transparency>0.75</transparency>
-          <geometry>
-            <box>
-              <size>1 1 1.75</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Yellow</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <enable_wind>0</enable_wind>
-      </link>
-      <plugin name='region_event_box' filename='libRegionEventBoxPlugin.so'>
-        <event>
-          <name>model_in_region_event_box</name>
-          <type>inclusion</type>
-          <active>1</active>
-        </event>
-      </plugin>
-    </model>
-    <model name='RegionEventBox_0'>
-      <static>1</static>
-      <pose>0.444894 -0.446256 0 0 -0 0</pose>
-      <link name='link'>
-        <visual name='visual'>
-          <transparency>0.75</transparency>
-          <geometry>
-            <box>
-              <size>1 1 1.75</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Yellow</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <enable_wind>0</enable_wind>
-      </link>
-      <plugin name='region_event_box' filename='libRegionEventBoxPlugin.so'>
-        <event>
-          <name>model_in_region_event_box</name>
-          <type>inclusion</type>
-          <active>1</active>
-        </event>
-      </plugin>
-    </model>
     <model name='number1'>
       <pose>3.47593 -2.39753 0.4 0 -0 0</pose>
       <static>1</static>
@@ -2289,6 +2229,52 @@
               <uri>model://number2/materials/scripts</uri>
               <uri>model://number2/materials/textures</uri>
               <name>Number/Two</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='number4'>
+      <pose>3.29175 -4.52088 0.4 0 -0 0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://number1/meshes/number.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://number4/materials/scripts</uri>
+              <uri>model://number4/materials/textures</uri>
+              <name>Number/Four</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <model name='number5'>
+      <pose>0.456896 -6.40742 0.4 0 -0 0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://number1/meshes/number.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://number5/materials/scripts</uri>
+              <uri>model://number5/materials/textures</uri>
+              <name>Number/Five</name>
             </script>
           </material>
         </visual>
